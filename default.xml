@@ -4,7 +4,5 @@
 <default remote="origin" revision="master"/>
 
 <project path="blog" name="blog"/>
-<project path="indigo" name="indigo">
- <linkfile src="indigo" dest="blog/themes/indigo"/>
-</project>
+<project path="indigo" name="indigo"/>
 </manifest>
