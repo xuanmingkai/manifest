@@ -3,6 +3,6 @@
 <remote fetch="https://github.com/xuanmingkai" name="origin"/>
 <default remote="origin" revision="master"/>
 
-<project path="blog" name="blog">
+<project path="blog" name="blog"/>
 <project path="blog/themes" name="indigo"/>
 </manifest>
