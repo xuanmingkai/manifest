@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="aomedia" fetch="https://aomedia.googlesource.com"/>
+    <default revision="master" remote="aomedia"/>
+    <project name="aom" path="aom" remote="aomedia" revision="main"/>
+    
+    <remote name="github" fetch="https://github.com"/>
+    <default revision="master" remote="github"/>
+    <project name="crash" path="crash" remote="github/crash-utility/crash.git" revision="main"/>
+    <project name="certasset" path="certasset" remote="arbazkiraak/certasset.git" revision="master"/>
+    <project name="ffmpeg" path="ffmpeg" remote="FFmpeg/FFmpeg.git" revision="master"/>
+    <project name="gnuradio" path="gnuradio" remote="gnuradio/gnuradio.git" revision="master"/>
+    <project name="masscan" path="masscan" remote="robertdavidgraham/masscan" revision="master"/>
+    
+    <remote name="dpdk" fetch="git://dpdk.org/dpdk"/>
+    <default revision="master" remote="dpdk"/>
+    <project name="dpdk" path="dpdk" remote="dpdk" revision="master"/>
+    
+    <remote name="freebsd" fetch="https://github.com"/>
+    <default revision="master" remote="freebsd"/>
+    <project name="freebsd" path="freebsd" remote="freebsd/freebsd.git" revision="main"/>
+    
+    <remote name="freeswitch" fetch="https://freeswitch.org/stash/scm/fs/freeswitch.git"/>
+    <default revision="master" remote="freeswitch"/>
+    <project name="freeswitch" path="freeswitch" remote="freeswitch" revision="master"/>
+    
+    <remote name="gecko-dev" fetch="https://github.com/mozilla"/>
+    <default revision="master" remote="gecko-dev"/>
+    <project name="gecko-dev" path="gecko-dev" remote="mozilla/gecko-dev.git" revision="master"/>
+    
+    <remote name="linux-stable" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git"/>
+    <default revision="master" remote="linux-stable"/>
+    <project name="linux-stable" path="linux-stable" remote="linux-stable" revision="main"/>
+    
+    <remote name="nuttx" fetch="https://bitbucket.org/nuttx/nuttx.git"/>
+    <default revision="master" remote="nuttx"/>
+    <project name="nuttx" path="nuttx" remote="nuttx" revision="master"/>
+    
+    <remote name="openlte" fetch="git://git.code.sf.net/p/openlte/code"/>
+    <default revision="master" remote="openlte"/>
+    <project name="openlte" path="openlte" remote="openlte" revision="master"/>
+    
+    <remote name="rtl-sdr" fetch="git://git.osmocom.org/rtl-sdr.git"/>
+    <default revision="master" remote="rtl-sdr"/>
+    <project name="rtl-sdr" path="rtl-sdr" remote="rtl-sdr" revision="master"/>
+    
+    <remote name="threejs" fetch="https://github.com/mrdoob/three.js.git"/>
+    <default revision="master" remote="threejs"/>
+    <project name="three.js" path="three.js" remote="threejs" revision="master"/>
+    
+    <remote name="v8" fetch="https://chromium.googlesource.com/v8/v8.git"/>
+    <default revision="master" remote="v8"/>
+    <project name="v8" path="v8" remote="v8" revision="master"/>
+    
+    <remote name="webkit" fetch="https://github.com/WebKit/webkit.git"/>
+    <default revision="master" remote="webkit"/>
+    <project name="webkit" path="webkit" remote="webkit" revision="master"/>
+</manifest>
+
